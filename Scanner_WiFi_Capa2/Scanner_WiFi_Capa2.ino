@@ -39,6 +39,5 @@ void loop() {
       delay(10);
     }
   }
-  Serial.println("-----------------------------------------");
   delay(5000); // Espera 5 segundos antes del siguiente escaneo
 }
