@@ -9,13 +9,13 @@ void setup() {
   WiFi.disconnect(); // Nos aseguramos de no estar conectados a nada
   delay(100);
   
-  Serial.println("Escáner de Redes Iniciado...");
+  Serial.println("Escáner de Redes Iniciado");
   Serial.print("Mi propia dirección MAC es: ");
   Serial.println(WiFi.macAddress());
 }
 
 void loop() {
-  Serial.println("Escaneando el espectro Wi-Fi (2.4 GHz)...");
+  Serial.println("Escaneando el espectro Wi-Fi (2.4 GHz)");
   
   // Esta función cuenta cuántas redes detecta la antena
   int n = WiFi.scanNetworks(); 
